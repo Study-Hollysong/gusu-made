@@ -1,13 +1,17 @@
 import { defineConfig } from 'vite'
 import uni from '@dcloudio/vite-plugin-uni'
 import Components from 'unplugin-vue-components/vite'
-import { UviewPlusResolver } from 'unplugin-vue-components/resolvers'
+import * as resolvers from 'unplugin-vue-components/resolvers'
 
 export default defineConfig({
   plugins: [
     uni(),
     Components({
-      resolvers: [UviewPlusResolver()]
+      resolvers: [
+        typeof resolvers.UviewPlusResolver === 'function'
+          ? resolvers.UviewPlusResolver()
+          : undefined
+      ].filter(Boolean)
     })
   ]
 })
