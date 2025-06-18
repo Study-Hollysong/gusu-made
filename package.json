@@ -9,7 +9,7 @@
     "build:h5": "uni build -p h5"
   },
   "devDependencies": {
-    "@dcloudio/vite-plugin-uni": "^0.7.0",
+    "@dcloudio/vite-plugin-uni": "^3.0.0-alpha-4070120250530001",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.0.0"
   }
