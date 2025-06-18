@@ -12,7 +12,8 @@
 ## 安装步骤
 1. 克隆项目代码。
 2. 在 HBuilderX 中打开项目。
-3. 使用 `npm install` 安装依赖。
+3. 在安装依赖前，请确保 `package.json` 中的 `@dcloudio/vite-plugin-uni` 插件版本为 NPM 上实际存在的可用版本。
+4. 使用 `npm install` 安装依赖。
 
 ## 使用方法
 - 在 HBuilderX 中本地运行项目。
