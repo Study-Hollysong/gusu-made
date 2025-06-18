@@ -12,7 +12,8 @@ Gusu Made is a UniApp project designed to provide a seamless user experience acr
 ## Installation
 1. Clone the repository.
 2. Open the project in HBuilderX.
-3. Install dependencies using `npm install`.
+3. Ensure `@dcloudio/vite-plugin-uni` in `package.json` uses a valid version available on NPM.
+4. Install dependencies using `npm install`.
 
 ## Usage
 - Run the project locally using HBuilderX.
