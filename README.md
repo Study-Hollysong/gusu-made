@@ -11,8 +11,9 @@ Gusu Made is a UniApp project designed to provide a seamless user experience acr
 
 ## Installation
 1. Clone the repository.
-2. Open the project in HBuilderX.
-3. Install dependencies using `npm install`.
+2. Ensure you have Node.js 14 or later installed.
+3. Open the project in HBuilderX.
+4. Install dependencies using `npm install`.
 
 ## Usage
 - Run the project locally using HBuilderX.
