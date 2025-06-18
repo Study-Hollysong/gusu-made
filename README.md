@@ -18,5 +18,12 @@ Gusu Made is a UniApp project designed to provide a seamless user experience acr
 - Run the project locally using HBuilderX.
 - Deploy cloud functions to UniCloud for backend services.
 
+## Linting
+Use ESLint to check code quality:
+
+```bash
+npm run lint
+```
+
 ## License
 This project is licensed under the Apache-2.0 License.
