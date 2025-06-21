@@ -8,6 +8,8 @@ Gusu Made is a UniApp project designed to provide a seamless user experience acr
 - Centralized configuration management with `uni-config-center`
 - Customizable styles using SCSS variables
 - Easy integration with UniCloud database and cloud functions
+- Starter pages for customization, template marketplace, product store and
+  user profile
 
 ## Installation
 1. Clone the repository.
